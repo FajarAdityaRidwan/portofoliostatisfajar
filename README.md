@@ -1,0 +1,2 @@
+# portofoliostatisfajar
+Portofolio ke2
