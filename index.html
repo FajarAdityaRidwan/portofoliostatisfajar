@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB PERTAMA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <header>
+      <h1 class="logo">FAJAR ADITYA</h1>
+      <nav>
+        <ul>
+          <li><a href="#profile" >PROFILE</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#content">CONTENT</a></li>
+        </ul>
+      </nav>
+      <button class="btn" onclick="redirInstagram()"></a>INSTAGRAM</button>
+    </header>
+    <div class="container">
+      <div class="wrapper"  id="profile">
+        <p class="title">Hello, im Fajar Aditya Ridwan</p>
+        <p class="description">i'm Technology Enthusiast from Bekasi City</p>
+        <img src="ASSET/fajar.jpg" alt="LUFI" class="img-lufi" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="profile" id="about">
+        <p class="description">I'm a graduate of SMK majoring in Multimedia, studying design and photography. <br> Currently continuing my education in Informatics Engineering. <br>Interested in design / web design and photography, always happy to learn for self-development. <br> Knowledgeable in the fields of Photography, Digital Media, Information Systems.</p>
+        <div class="mt-10">
+          <button class="btn" onclick="redirWhatsApp()">MORE INFO</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="content">
+            <div class="card-items">
+              <img src="icon/jam.png" alt="icon-1" class="icon">
+              <p class="card-title">Service</p>
+              <p class="card-description">Kami menyediakan jasa konsultasi tanpa batas waktu.</p>
+            </div>
+            <div class="card-items">
+              <img src="icon/hot.png" alt="icon-1" class="icon">
+              <p class="card-title">Price</p>
+              <p class="card-description">Berkolaborasi dengan harga yang relative</p>
+            </div>
+            <div class="card-items">
+              <img src="icon/contact.png" alt="icon-1" class="icon">
+              <p class="card-title">Contact</p>
+              <p class="card-description">Hubungi kami melalui email: fajaradhitya4@gmail.com</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function redirInstagram () {
+        window.location.href = "https://www.instagram.com/fajaradityaa.r/"
+      }
+      function redirWhatsApp () {
+        window.location.href = "https://wa.me/+6285781245483"
+      }
+    </script>
+    <footer>
+      <p title="">&copy; Fajar Aditya Ridwan Website 2024</p>
+    </footer>
+  </body>
+</html>
